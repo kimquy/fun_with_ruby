@@ -1,0 +1,13 @@
+SAMPLE
+ * Simply just run the following command for the terminal.
+   >> ruby main.rb
+
+   This will generate a sale report (after tax).
+
+REQUIREMENT
+* csv
+* rspec
+
+RSPEC
+ * Run the following command to test all test cases
+   >> rspec spec
