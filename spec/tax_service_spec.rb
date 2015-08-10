@@ -37,14 +37,14 @@ describe TaxService do
   describe "#applied_tax_amount" do
     it 'returns correct values' do
       expect(tax_service1.applied_tax_amount).to eq(0.5)
-      expect(tax_service2.applied_tax_amount).to eq(7.13)
+      expect(tax_service2.applied_tax_amount).to eq(7.15)
     end
   end
 
   describe "#price_after_tax" do
     it 'returns correct values' do
       expect(tax_service1.price_after_tax).to eq(10.5)
-      expect(tax_service2.price_after_tax).to eq(54.63)
+      expect(tax_service2.price_after_tax).to eq(54.65)
     end
   end
 end
